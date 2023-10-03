@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>blogg</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/blogg.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <body>
+        <div class="container">
+            <header>
+                <div class="top">
+                    <div class="logo">
+                        <img src="img/foodCourtLogan.JPG" alt="logo">
+                    </div>
+                    <div class="search-container">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Sök.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="socialMedia">
+                        <a href="https://www.facebook.com/samantha.theerawat" class="fa-brands fa-facebook"></a>
+                        <a href="https://www.instagram.com/nokiang_thee/" class="fa-brands fa-instagram"></a>
+                        <a href="https://twitter.com/SamanthaTh11" class="fa-brands fa-twitter"></a>
+                    </div>
+                </div>
+                <nav>
+                    <div class="nav-wrapper">
+                        <ul class="menu" id="myMenu">
+                            <li><a href="index.html" class="active">Hem</a></li>
+                            <li><a href="blogg.html">Blogg</a></li>
+                            <li><a href="#">Om mig</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                        </ul>
+                        <div class="ham-menu" onclick="toggleHam(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                        <div class="mobile-search-container">
+                            <form action="/action_page.php">
+                                <input type="text" placeholder="Sök.." name="search">
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <div class="bloggPost-wrapper">
+                    <h1 class="postGroupName"> Mina Recept</h1>
+                    <div class="bloggPostMenu">
+                        <div class="blogg-post">
+                            <a href="padKrapao.html">
+                                <div class="bloggPost-image">
+                                    <img src="img/Pad-Krapow.webp" alt="paddkrapao">
+                                </div>
+                                <div class="bloggPost-content">
+                                    <h3> Pad Krapow </h3>
+                                    <p>
+                                        Pad Krapow, otherwise known as Pad Kra Pao, is a beloved stir-fry dish in
+                                        Thailand that
+                                        is just as
+                                        delicious as it iseasy to make.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blogg-post">
+                            <a href="#">
+                                <div class="bloggPost-image">
+                                    <img src="img/paddthai.jpg" alt="paddthai">
+                                </div>
+                                <div class="bloggPost-content">
+                                    <h3> Pad Thai</h3>
+                                    <p>
+                                        Pad Thai is a Thai noodle stir fry with a sweet-savoury-sour sauce scattered with crushed peanuts. It’s made with thin,
+                                        flat rice noodles, and almost always has bean sprouts, garlic chives, scrambled egg, firm tofu and a protein – the most
+                                        popular being chicken or prawns/shrimp.
+
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+                    <h1 class="postGroupName"> Mina Resor</h1>
+                    <div class="bloggPostTrips">
+                        <div class="blogg-post">
+                            <a href="#">
+                                <div class="bloggPost-image">
+                                    <img src="img/rhodos.jpg" alt="traganou caves">
+                                </div>
+                                <div class="bloggPost-content">
+                                    <h3> Traganou beach, Rhodes</h3>
+                                    <p>The beach of Traganou is located 20 km south of Rhodes town and 4 km from
+                                        Faliraki Beach.
+
+                                        A superb cave is standing on one extremity of the beach,
+                                        giving to the whole place a unique and magical atmosphere.
+
+
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="blogg-post">
+                            <a href="#">
+                                <div class="bloggPost-image">
+                                    <img src="img/blueEyes,kapverde.jpg" alt="kapverde">
+                                </div>
+                                <div class="bloggPost-content">
+                                    <h3> The Blue Eye, Cape Verde</h3>
+                                    <p>Buracona, also known as The Blue Eye is one of the few tourist attractions of
+                                        Cape Verde islands and Sal.
+                                        A beautiful underwater cage turning magic blue and turquoise by the sunlight.
+                                        Buracona and the “blue eye” is basically a natural pool formed by the ocean into
+                                        the lava rocks. When the light hits
+                                        this natural pool from the right angle, the color turns into a magic turquoise
+                                        blue reviling "the blue eye". It is
+                                        absolutely beautiful. You can swim in the natural lava pool right next to the
+                                        “blue eye” but this can be dangerous on
+                                        windy days.
+
+
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </main>
+            <footer>
+                <div class="foot-socialMedia">
+                    <a href="https://www.facebook.com/samantha.theerawat" class="fa-brands fa-facebook"></a>
+                    <a href="https://www.instagram.com/nokiang_thee/" class="fa-brands fa-instagram"></a>
+                    <a href="https://twitter.com/SamanthaTh11" class="fa-brands fa-twitter"></a>
+                </div>
+                <p>
+                    <a href="mailto:#">mail@foodcourt.se</a>
+                    <br>
+                    © Copyright 2023 – Samantha Theerawat – All rights reserved
+                    <br>
+                    <i class="fa-solid fa-heart" style="color: #ec0909;"></i>
+                    Byggd med passion för mat <i class="fa-solid fa-bowl-food" style="color: #0892e7;"></i>
+                    & <i class="fa-solid fa-plane-departure" style="color: #0892e7;"></i>
+                    resor<i class="fa-solid fa-heart" style="color: #ec0909;"></i>
+                </p>
+            </footer>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

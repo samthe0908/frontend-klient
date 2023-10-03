@@ -1,0 +1,67 @@
+.bloggPost-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.postGroupName{
+    border: 3px solid #804d86;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px 80px;
+    color: #454545;
+}
+
+.bloggPostMenu, .bloggPostTrips{
+    display: flex;
+    flex-direction: row;
+    padding: 10px; 
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.blogg-post{
+    display: flex;
+    width: 350px;
+    margin:0 10px ;
+    
+ 
+
+}
+
+.blogg-post a{
+    text-decoration: none;
+
+}
+.bloggPost-image{
+
+    width: 250px;
+    height: 200px; 
+    display: flex;
+
+  
+    }
+
+.bloggPost-image img{
+    width: 100%;
+
+}
+
+.bloggPost-content{
+    display: flex;
+    flex-direction: column;
+
+}
+.bloggPost-content h3, p{
+ text-align: center;
+ color: #804d86;
+ padding: 0 30px;
+   
+}
+
+
+ /* Responsive layout-mobile */
+ @media only screen and (max-width: 450px) {
+    
+   
+
+ }
