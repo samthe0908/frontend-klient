@@ -15,7 +15,6 @@ body{
     max-width: 1140px;
     margin: 0 auto;
     min-height: 100vh;
-  
 
    
  }
@@ -76,6 +75,7 @@ header{
 
 .socialMedia a{
     text-decoration: none;
+    color: #804d86;
     
 }
 nav{
@@ -92,7 +92,8 @@ nav{
 
 }
 
-a:hover{
+
+li a:hover{
     background-color: #804d86;
     color: #da8b70;
 }

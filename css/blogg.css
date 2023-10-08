@@ -24,8 +24,6 @@
     width: 350px;
     margin:0 10px ;
     
- 
-
 }
 
 .blogg-post a{
@@ -37,6 +35,7 @@
     width: 250px;
     height: 200px; 
     display: flex;
+    margin: auto;
     
     }
 
